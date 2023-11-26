@@ -1,0 +1,111 @@
+header{
+    width: 100%;
+    background-color: #535353;
+    color: white;
+    height: 30rem;
+}
+
+header div ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-bottom: 0%;
+    height: 100%;
+    align-items: center;
+}
+header div ul li{
+    font-size: 1.2rem;
+}
+header div ul li a{
+    text-decoration: none;
+    color: white;
+}
+#head{
+    height: 100%;
+    background-image: url("../img/head.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: solid white;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #e5ddd5;
+    color: white;
+}
+#cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+#tam{
+    height: 18rem;
+}
+#pos{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    margin: 1.2rem;
+    border-radius: 10px;
+    height: 25rem;
+}
+#tot{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+#nome{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+#price_color{
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: rgb(253, 143, 0);
+    border-radius: 10px;
+    width: 8rem;
+}
+#flex-cent{
+    display: flex;
+    justify-content: center;
+}
+.grow{
+    transition: transform 1s;
+    will-change: scale;
+}
+.grow:hover{
+    transform: scale(1.2);
+}
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+}
+#title{
+    color: white;
+    margin-top: 1rem;
+    width: 10%;
+    text-align: center;
+    background-color: orange;
+    border-radius: 10px;
+}
+#format{
+    color: black;
+}
+#format-txt{
+    color: black;
+    padding: 1rem;
+    text-align: justify;
+}
+.box{
+    width: 90%;
+    margin-top: 3rem;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+#dfle{
+    display: flex;
+    justify-content: center;
+}
